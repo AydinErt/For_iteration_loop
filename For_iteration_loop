@@ -1,0 +1,57 @@
+For_iteration_loop
+
+
+public static void main(String[] args) {
+       for (int i=0;i<5; i++){
+            System.out.println("hello world");
+        }
+
+
+// Task 1 den Kadar sayilari yazdir
+
+        /*
+        for (int i = 0; i <= 100; i++) {
+            System.out.println("i="+i);
+
+        }
+*/
+
+        // task 5 in carpim tablosu
+       /* int no=5;
+        for (int i = 1; i <=10 ; i++) {
+            System.out.println(no + "x"+i+"="+no*i);
+        }
+*/
+
+//Task 1 den 50 ye kadar cift sayilar
+        /*
+        for (int i = 2; i <=50; i+=2) {
+            System.out.println(i);
+        }*/
+        //task 50 den 2 ye kadar cift sayilar
+
+       /* for (int i = 50; i >1 ; i-=2) {
+            System.out.println(i);
+
+        }
+*/
+        //task 1den 100 kadar tek sayilarin toplami
+
+       /*
+        int sum=0;
+        for (int i = 1; i <=100 ; i+=2) {
+            sum =sum+i;  //sum degerine her seferinde "i" degerini ekle
+
+        }
+        System.out.println("Toplam: " +sum);
+
+
+*/
+        //task 1 ile 100 arasindaki tum asal sayilari yazdiran bir program
+
+        for (int i = 1; i <100 ; i++) {
+            System.out.println(i);
+
+        }
+
+    }
